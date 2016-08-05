@@ -1,0 +1,336 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+
+.wrap{
+	margin: 0 auto;
+	width: 90%;
+	padding: 1.5em 0em 1.5em 0em;
+	/* border: #fff 1px solid; */
+}
+#top{
+	padding-top: 64px;
+}
+body{
+	text-align: center;
+}
+.grid_3 							{ width:330px; margin:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+.grid_4 							{ width:300px; margin:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+
+
+.cf{
+	clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.half{
+	width: 50%;
+}
+h2{
+	font-family: 'BebasNeue' , Arial, sans-serif;
+	font-size: 2em;
+	padding-bottom: 0.2em;
+	color: #3DA6C9;
+	text-transform: uppercase;  
+}
+h3{
+	font-family: 'BebasNeue', Arial, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;  
+}
+h4{
+	font-family: 'web_serveroffregular',Arial, sans-serif;
+	font-size: 1.5em; 
+}
+h5{
+	font-family: 'web_serveroffregular',Arial, sans-serif;
+	font-size: 1em; 
+}
+a{
+	color: #3DA5C9;
+	text-decoration: none;
+	padding-top: 20px;
+}
+a:hover{
+	color: #4E7F90;
+}
+.active{
+	color: #4E7F90;
+	border-top: 4px solid #4E7F90;
+}
+#logo{
+	margin: -15px 5px 5px 10px;
+}
+#nav{
+	height: 4em;
+	width: 100%	;
+	background:#7DC2D8;
+	z-index: 999;
+	position: fixed;
+}
+#nav ul{
+	margin-right: 5%;
+	list-style: none;
+}
+#nav li{
+	float: left;
+	margin-right: 10px;
+}
+#nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#nav a:hover{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+#slider{
+	width: 100%;
+	height: 420px;
+	background: url(images/slider.jpg) no-repeat center;
+}
+#info{
+	width: 507px;
+	height: 265px;
+	background: #7DC2D8;
+	text-align: left;
+	z-index: 10;
+	position: absolute;
+	margin: 50px 10% 0px 40%;
+	padding: 10px;
+}
+#content{
+	
+}
+
+/* SERVICE */
+#service{
+	text-align: center;
+}
+
+#service img{
+	margin-top: 90px;
+}
+
+#testimonials{
+	background: #9BD2E4;
+}
+.testimonial{
+	float: none;
+	display: inline-block;
+	text-align: center;
+}
+.bubble{
+	background-color: #7AC2D9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	font-style: italic;
+	position: relative;
+	text-align: left;
+	color: #ffffff;
+	width: 100%;
+}
+.bubble span {
+	padding: 20px;
+	display: block;
+}
+.bubble:before {
+	border-bottom: 15px solid transparent;
+	border-right: 14px solid #7AC2D9;
+	bottom: -15px;
+	content: '';
+	position: absolute;
+	right: 34px;
+}
+.bubble:after {
+	border-bottom: 15px solid transparent;
+	border-left: 14px solid #7AC2D9;
+	bottom: -15px;
+	content: '';
+	position: absolute;
+	right: 20px;
+}
+.testimonial p {
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	margin-top: 20px;
+	text-align: right;
+}
+/* CLIENTS */
+#clients #client-list{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+/* FOOTER */
+
+#footer{
+	background: #9FD2E2;
+	clear: both;
+	color: white;
+}
+#footer p{
+	margin: 0 auto;
+	width: 50%;
+}
+#footer .circle_small{
+	width: 74px;
+	height: 74px;
+	background: #7AC2D9;
+	margin: 50px 20px;
+	display: inline-block;
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+}
+#footer .circle_small:hover{
+	width: 74px;
+	height: 74px;
+	background: #4E7F90;
+	margin: 50px 20px;
+	display: inline-block;
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+}
+#footer img{
+	margin-top: 20px;
+}
+#copyright{
+	background: #7DC2D8;
+	
+}
+#copyright p{
+	width: 100%;
+	text-align: center;
+}
+/*-------------------------
+ 			KATALOG 
+---------------------------*/
+
+#katalog{
+	background: #7AC2D9;
+	padding: 10px 10% 10px 10%; 
+
+}
+#katalog ul{
+	list-style: none;
+}
+.katalog_info{
+	width: 360px;
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+}
+.katalog_info a{
+	font-family: 'web_serveroffregular',Arial, sans-serif;
+	color: white;
+	font-size: 1.125em;
+	padding-left: 50px;
+}
+#katalog .cijena{
+	background-color: #9FD2E2;
+	float: right;
+	padding: 5px 10px;
+	margin-right: 20%;
+}
+/*-------------------------
+ 			CIJENIK 
+---------------------------*/
+#price{
+	background: #9FD2E2;
+}
+table{
+	text-align: left;
+	width: 100%;
+	padding: 15px;
+}
+table td{
+	padding: 5px 5px;
+	border-bottom: 1px dotted #4D7F90;
+}
+table tr th p{
+	text-align: right;
+	margin: 10px;
+}
+
+/*-------------------------
+ 			KONTAKT 
+---------------------------*/
+#contact_info{
+	width: 380px;
+	height: 350px;
+	background: #9FD2E2;
+	text-align: left;
+	z-index: 10;
+	position: absolute;
+	margin: 50px 10% 0px 50%;
+}
+#contact_info h4{
+	padding: 15px 20px;
+	margin-left: 20px;
+	color: white;
+}
+#maps{
+	width: 100%;
+	height:480px;
+}
+.col2{
+	width: 46%;
+	margin: 0px 2%;
+}
+
+form input{
+	height: 66px;
+	width: 100%;
+	margin-bottom: 12px;
+	padding: 5px;
+	font-size: 1em;
+	border: #3DA6C9 1px solid;
+	
+}
+form textarea{
+	width: 100%;
+	height: 236px;
+	padding: 10px;
+	font-size: 1em;
+	border: #3DA6C9 1px solid;
+}
+form .submit{
+	font-family: 'BebasNeue', Arial, sans-serif;
+	font-size: 1em;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 10px;
+	float: right;
+	background: #3DA6C9;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
